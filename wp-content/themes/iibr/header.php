@@ -35,6 +35,23 @@
 	<!-- SIDE MENU -->
 	<link rel="stylesheet" href="<?php echo bloginfo('template_url');?>/css/jquery.sidr.dark.css">
     <link href="<?php echo bloginfo('template_url');?>/css/styletheme.css" rel="stylesheet">
+
+     <link href="<?php echo bloginfo('template_url');?>/css/owl.theme.css" rel="stylesheet">
+   
+
+   <style type="text/css">
+
+#facebook{ color : #3b5998 ; }
+#twitter{ color : #1da1f2 ; }
+#instagram{ color : #c13584 ; }
+#google{ color : #dd4b39 ; }
+ 
+
+
+</style>
+
+
+
 </head>
 
 <body>

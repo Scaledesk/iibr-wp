@@ -61,9 +61,9 @@
                         <!--EDU2 FOOTER CONTANT DES START-->
                         <div class="col-md-3">
                           <div class="widget widget-contact"> 
-                               <!--  <h5>Social Link</h5>
+                               <!--  <h5>Social Link</h5> 
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li><li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li><li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li><li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                                    <li id="facebook"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li><li id="linkedin" ><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li><li id="google"><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li><li id="twitter"><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
                                    
                                 </ul> -->
                             </div> 
@@ -82,9 +82,9 @@
 
                                         <li>S. No. 29/1+2A, Near Empire Estate,
                                           Pune - Mumbai Highway, Pimpri, Pune - 411018 </li>
-                                        <li>Phone<a href="#">+91-20-27478666, 66351700 </a></li>
+                                        <li>Phone<a href="#"> +91-20-27478666, 66351700 </a></li>
 
-                                        <li>Phone<a href="#">9422009207 / 09 / 10 / 12 </a></li>
+                                        <li>Phone<a href="#"> 9422009207/ 09/ 10/ 12 </a></li>
 
                                         <li>Fax<a href="#"> +91-20-27471753</a></li>
 
@@ -121,10 +121,10 @@
 
                     <div class="col-md-3">
                         <ul class="cards_wrap">
-                     <li style="font-size:25px"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                         <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                         <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                         <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a> 
+                     <li style="font-size:25px"><a href="#"><i id="facebook" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                         <a href="#"><i id="twitter" class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                         <a href="#"><i id="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+                         <a href="#"><i id="google" class="fa fa-google-plus-square" aria-hidden="true"></i></a> 
                          </li>
                                    
                         </ul>
@@ -141,7 +141,7 @@
     <!--Bx-Slider JavaScript-->
     <script src="<?php echo bloginfo('template_url');?>/js/jquery.bxslider.min.js"></script>
     <!--Owl Carousel JavaScript-->
-    <script src="<?php echo bloginfo('template_url');?>/js/owl.carousel.min.js"></script>
+    <!-- <script src="<?php echo bloginfo('template_url');?>/js/owl.carousel.min.js"></script> -->
     <!--Pretty Photo JavaScript-->
     <script src="<?php echo bloginfo('template_url');?>/js/jquery.prettyPhoto.js"></script>
     <!--Full Calender JavaScript-->
@@ -163,21 +163,29 @@
     <!--Custom JavaScript-->
     <script src="<?php echo bloginfo('template_url');?>/js/custom.js"></script>
 
+
+    <script src="<?php echo bloginfo('template_url');?>/js/prettify.js"></script>
+    <script src="<?php echo bloginfo('template_url');?>/js/owl.carousel.js"></script>
+
+
  <script>
     $(document).ready(function() {
-      $("#owl-demo-main").owlCarousel({
-
+      $("#owl-demo").owlCarousel({
       navigation : true,
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem : true,
-     
-    pagination  : false,
+      pagination  : false,
     navigation  : true,
     autoPlay    : true,
     stopOnHover : true
 
       });
+           
+            
+       
+
+
     });
     </script>
    
